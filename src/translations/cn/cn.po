@@ -152,8 +152,8 @@ msgstr "时差文本"
 
 #. ./src/components/app/app.tsx:640:640
 #. )}
-#. {_('下载')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
-#. {_('加压后运行dash.exe')}
+#. {_('Download')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
+#. {_('and run it')}
 msgid "Download"
 msgstr "下载"
 
@@ -661,10 +661,17 @@ msgstr "并且解压运行里面的程序"
 
 #. ./src/components/app/app.tsx:640:640
 #. )}
-#. {_('下载')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
-#. {_('解压并运行dash.exe')}
+#. {_('Download')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
+#. {_('and run it')}
 msgid "dash.zip"
 msgstr "dash.zip"
+
+#. ./src/components/app/app.tsx:640:640
+#. )}
+#. {_('Download')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
+#. {_('and run it')}
+msgid "and run it"
+msgstr "解压并运行dash.exe"
 
 #. 'lap'
 #. )}`)

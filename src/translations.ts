@@ -295,7 +295,7 @@ const translations = {
 		'time left': 'temps restant'
 	},
 	cn: {
-		'-webHudUrl=https://sector3studios.github.io/webhud/dist/':'',
+		'-webHudUrl=https://moonlooker.github.io/R3EWebHUD/dist/':'',
 		Aerodynamics: '空气动力',
 		'Black flag': '黑旗',
 		'Blue flag 1st warning': '第一次蓝旗警告',
@@ -305,7 +305,7 @@ const translations = {
 		Chinese: '中文',
 		Clear: '清除',
 		Close: '关闭',
-		'Crew chief': 'Crew chief',
+		'Crew chief': '维修组',
 		'Current lap': '当前圈',
 		'Current position': '当前排位',
 		'Current speed': '当前时速',
@@ -320,10 +320,10 @@ const translations = {
 		'Driver Change': '更换车手',
 		Engine: '引擎',
 		English: '英语',
-		'Est. Pos': 'Est. Pos',
-		'Est. Time': 'Est. Time',
-		'Estimated lap time': 'Estimated lap time',
-		'Estimated position': 'Estimated position',
+		'Est. Pos': '预估位置',
+		'Est. Time': '预估圈速',
+		'Estimated lap time': '预估圈速',
+		'Estimated position': '预估位置',
 		Flags: '旗语',
 		French: '法语',
 		'Front tires': '前轮',
@@ -388,8 +388,8 @@ const translations = {
 		'Yield to the car behind': '小心避让后面的车辆',
 		'and run it': '并且解压运行里面的程序',
 		'dash.zip': 'dash.zip',
-		lap: 'lap',
-		laps: 'laps',
+		lap: '圈',
+		laps: '圈',
 		'time left': '剩余时间'
 	}
 };

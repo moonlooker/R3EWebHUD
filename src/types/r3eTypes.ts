@@ -1,13 +1,3 @@
-export enum EVersionMajor {
-	/** Major version number to test against */
-	VersionMajor = 2
-}
-
-export enum EVersionMinor {
-	/** Minor version number to test against */
-	VersionMinor = 6
-}
-
 export enum ESession {
 	Unavailable = -1,
 	Practice = 0,
@@ -285,10 +275,13 @@ export interface IPlayerData {
 	FrontRollAngle: number;
 	RearRollAngle: number;
 
+	ThirdSpringSuspensionDeflectionFront: number;
+	ThirdSpringSuspensionVelocityFront: number;
+	ThirdSpringSuspensionDeflectionRear: number;
+	ThirdSpringSuspensionVelocityRear: number;
+
 	/** Reserved data */
 	Unused1: number;
-	Unused2: number;
-	Unused3: number;
 }
 
 export interface IFlags {
@@ -1001,7 +994,10 @@ export default interface IShared {
 	TireUnused3: number;
 	TireUnused4: number;
 	TireUnused5: ITireData<number>;
-	TireUnused6: ITireData<number>;
+
+	// Tire load (N)
+	// -1.0 = N/A
+	TireLoad: ITireData<number>;
 	//////////////////////////////////////////////////////////////////////////
 	/** Damage */
 	//////////////////////////////////////////////////////////////////////////

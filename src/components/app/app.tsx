@@ -637,14 +637,14 @@ export default class App extends React.Component<IProps> {
 				<div className="help">
 					{versionMisMatch && (
 						<div className="versionMismatch">
-							{_('Version mismatch')}!
+							{_('版本不匹配')}!
 						</div>
 					)}
-					{_('Download')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
-					{_('and run it')}
+					{_('下载')} <a href="dash.zip">{_('dash.zip')}</a>{' '}
+					{_('解压并运行dash.exe')}
 					<br />
 					{_(
-						'-webHudUrl=https://sector3studios.github.io/webhud/dist/'
+						'-webHudUrl=https://moonlooker.github.io/R3EWebHUD/dist/'
 					)}
 				</div>
 			);
@@ -657,7 +657,7 @@ export default class App extends React.Component<IProps> {
 			setTimeout(() => {
 				this.forceUpdate();
 			}, 100);
-			return <div className="help">{_('Game paused')}</div>;
+			return <div className="help">{_('游戏暂停')}</div>;
 		}
 
 		// Disable in replay
@@ -873,7 +873,7 @@ export default class App extends React.Component<IProps> {
 							de: _('German'),
 							en: _('English'),
 							fr: _('French'),
-							cn: _('Chinese')
+							cn: _('中文')
 						};
 						return (
 							<div
