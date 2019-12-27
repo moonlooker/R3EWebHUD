@@ -16,7 +16,7 @@ For discussions or support go [here](https://forum.sector3studios.com/index.php?
 -   Extract [public/dash.zip](public/dash.zip) 下载dash.zip文件
 -   Run dash.exe 解压后运行里面的dash.exe
 -   Add `-webdev -webHudUrl=https://moonlooker.github.io/R3EWebHUD/dist/` to the game launch arguments
--   在Steam中右键属性->设置启动选项->将上面地址加入进去保存
+-   在Steam中右键属性->设置启动选项->将上面Add后参数加入进去保存
 -   Start the game 启动游戏
 
 ## Development
