@@ -11,7 +11,7 @@ This is a sample showing how to create a web hud using the shared memory API for
 
 For discussions or support go [here](https://forum.sector3studios.com/index.php?threads/in-gameplay-web-overlays.12947/).
 
-## Quick start
+## Quick start 快速开始
 
 -   Extract [public/dash.zip](public/dash.zip) 下载dash.zip文件
 -   Run dash.exe 解压后运行里面的dash.exe
