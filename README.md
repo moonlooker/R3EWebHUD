@@ -14,10 +14,9 @@ For discussions or support go [here](https://forum.sector3studios.com/index.php?
 ## Quick start 快速开始
 
 -   当前工程在线访问在游戏中有点问题,不会显示.可以使用官方服务https://github.com/sector3studios/webhud
--   如果要使用汉化版工程需要下载r3e_hud.7z,并解压.**下载地址 https://share.weiyun.com/5j8MiuZ**
+-   如果要使用汉化版工程需要下载r3e_hud.7z,并解压.**下载地址 https://share.weiyun.com/5dgVzao**
 -   然后运行里面的serverstart.bat,会检测是否已经安装node.js环境,如果没有会自动安装node.js,连续下一步安装完成即可,或者直接安装里面的node-v12.14.0-x64.msi.再次运行serverstart.bat
--   解压 [public/dash.zip](public/dash.zip)
--   解压后运行里面的dash.exe
+-   会启动两个CMD窗口,一个是HUD服务,一个是游戏数据收集器
 -   在Steam中右键属性->设置启动选项->将参数`-webdev -webHudUrl=http://localhost:4000/`加入进去保存
 -   启动游戏
 
